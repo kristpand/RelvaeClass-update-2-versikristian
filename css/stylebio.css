@@ -1,0 +1,105 @@
+.mr-t-10 {
+  margin-top: 81px;
+}
+.mr-l-10 {
+  margin-left: 50px;
+}
+.d-line {
+  display: inline-block;
+}
+.text-underline {
+  text-decoration: none;
+  color: black;
+}
+.d-line {
+  display: inline-block;
+}
+.index-quartal {
+  z-index: 9999;
+}
+.index-quartal-2 {
+  z-index: 99999999;
+}
+/* bingkai border */
+.border-bingkai {
+  border: 5px solid;
+  border-top-color: #f7a63d;
+  border-bottom-color: rgb(199, 156, 27);
+  border-left-color: #935400;
+  border-right-color: #da7c01;
+  transition: 0.9s;
+}
+.border-bingkai:hover {
+  box-shadow: 10px 10px 10px black;
+  margin-top: 1px;
+  border-style: outset;
+}
+/* back */
+.back a:hover {
+  color: rgb(252, 200, 15);
+}
+.perluas {
+  width: 12rem;
+}
+/* bio */
+.container-bio {
+  margin-top: 5rem;
+}
+.efek:hover {
+  animation: efek-warna--profil 1s forwards;
+}
+.memo {
+  border: 4px solid white;
+  border-radius: 10px;
+}
+.memo:hover {
+  animation: efek-warna--memo 1s forwards;
+}
+.identitas {
+  border: 4px solid white;
+}
+.identitas:hover {
+  animation: efek-warna--memo 1s forwards;
+}
+.dropdown-bio {
+  border-color: #ebce80;
+  background-color: #ebce80;
+}
+.warnaaja {
+  background-color: #f7a63d;
+  border: 1px solid #f7a63d;
+}
+/* animation */
+@keyframes efek-warna--memo {
+  0% {
+    box-shadow: 0px 0px 30px #ebce80;
+  }
+  50% {
+    border-top-color: #ebce80;
+  }
+  70% {
+    border-left-color: #ebce80;
+  }
+  100% {
+    box-shadow: 0px 0px 100px #ebce80;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-right-color: #ebce80;
+    border-bottom-color: #ebce80;
+  }
+}
+@keyframes efek-warna--profil {
+  0% {
+    box-shadow: 10px 10px 30px #e27d29ef;
+  }
+  100% {
+    box-shadow: 0 0 50px #e27d29ef;
+    margin-top: 10px;
+  }
+}
+/* fitur animasi */
+.animasi {
+  width: 100%;
+  height: 100vmax;
+  margin-top: 40%;
+}

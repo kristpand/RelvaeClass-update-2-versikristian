@@ -1,0 +1,51 @@
+body {
+    overflow-x: hidden;
+}
+hr {
+    border: solid 2px black;
+    animation: zoomout 1s forwards;
+}
+.topic {
+    animation: updown 1s forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* animasi */
+@keyframes zoomout {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes updown {
+    0%{
+        margin-top: 10px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 0;
+        opacity: 1;
+    }
+}
